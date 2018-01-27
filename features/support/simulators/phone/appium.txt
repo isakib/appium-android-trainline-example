@@ -1,0 +1,7 @@
+[caps]
+platformName = "Android"
+deviceName = "Google_Nexus_5X___7_1_0___API_25___1080x1920"
+app = "./base.apk"
+appPackage = "com.thetrainline"
+appActivity = "com.thetrainline.one_platform.what_is_new.WhatsNewActivity"
+newCommandTimeout = "3000"

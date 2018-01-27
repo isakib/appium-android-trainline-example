@@ -1,0 +1,4 @@
+androidtabletsim: DEVICE_NAME='tablet simulator'
+androidphonesim: DEVICE_NAME='phone simulator'
+
+html_report: --format progress --format html --out=features_report.html
