@@ -4,7 +4,9 @@
 
 ## Assumptions...
 
-You are not 100% new to Ruby, Android or Cucumber
+ 1. You are not 100% new to Ruby, Android or Cucumber
+ 2. You have the necessary Android SDKs, tools in place and installed (i.e. adb)
+ 3. You are aware of RVM (or similar tools)
 
 ## What this is / What's included....
 
@@ -49,6 +51,16 @@ I like to use RVM to get my house in order...
 
 You will need to set the 'deviceName' in the 'appium.txt' files.
 
+To do this, launch your AVD or Genymotion simulator and run the following command...
+
+# adb devices -l
+
+Example output....
+
+List of devices attached
+192.168.56.101:5555    device product:vbox86p model:Google_Nexus_5X___7_1_0___API_25___1080x1920 device:vbox86p transport_id:9
+
+You want to populate the deviceName with the 'model' ... so in this case, it would be 'Google_Nexus_5X___7_1_0___API_25___1080x1920'
 
 ## Example command...
 
