@@ -53,7 +53,7 @@ You will need to set the 'deviceName' in the 'appium.txt' files.
 
 To do this, launch your AVD or Genymotion simulator and run the following command...
 
-# adb devices -l
+```adb devices -l```
 
 Example output....
 
